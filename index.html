@@ -11,7 +11,8 @@
 <!-- navigation -->
 <header>
   <h1>
-    <a href="/">Run Buddy</a>
+    <a href="/">Run Buddy
+    </a>
   </h1>
 
   <!--Anchor element-->
@@ -39,7 +40,6 @@
   <div class="hero-form">
     <h3>Get Started Today</h3>
     <p> Fill out this form and one of our trainers will schedule a consult</p>
-    <!--Add form element-->
     <form>
       <label for="name">Enter full name:</label>
       <input type="text"placeholder="Your Name" name="name" id="name" class="form-input" />
@@ -59,7 +59,7 @@
       </p>
       <p>
         <label for="checkbox"> I acknowledge that I am at least 18 years of age"</label>
-        <input type="checkbox" name="age-confirm" id="checkbox"/>
+        <input type="checkbox" name="checkpoint1" id="checkbox"/>
         <button type="submit">
           Get running!
         </button>
@@ -70,7 +70,8 @@
 
 <!-- "what we do" section -->
 <section id="what-we-do" class="intro">
-  <h2>What We Do</h2>
+  <h2 class= "secton-title primary-border">
+  What We Do</h2>
  
   <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Prak XOXO Tumblr normcore Banksy direct trad Blue Bottle chillwave you probably havent heard of them single-origin coffe Vice fanny pack fixie Odd Future Austin fingerstache pickeld twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfis Schlitz sustainable Intelligentsia umami deep v craft 
 
@@ -78,40 +79,77 @@
 </section>
 
 <!-- "what you do" section -->
-<section>
-  <h2>What You Do</h2>
+<section id= "what-you-do" class="steps">
+  <h2 class="section-title secondary-border">What You Do</h2>
   <div>
     <!--insert this img element-->
     <img src="./assets/images/step-1.svg" alt="" />
     <h3>
-      Step:1 Fill Out the Form Above.
-    </h3>
+      Step:1 <span>Fill Out the Form Above.</span></h3>
     <p>You're already here, so why not?</p>
   </div>
+
   <div>
     <img src="./assets/images/step-2.svg" alt=""/>
     <h3>
-      Step 2: Consult with One of Our Trainers.
-    </h3>
+      Step 2: <span>Consult with One of Our Trainers.</span></h3>
     <p> Are you here to build muscle, lose weight, or just feel good?</p>
   </div>
+
   <div>
     <img src="./assets/images/step-3.svg" alt=""/>
     <h3>
-      Step 3: Get Running
+      Step 3: <span>Get Running</span>
     </h3>
     <p>Hit the ground running (literally) once your trainer lays out your plan</p>
   </div>
+
   <div>
     <img src="./assets/images/step-4.svg" alt=""/>
-    <h3>Step 4: See Results.</h3>
+    <h3>Step 4: <span>See Results.</span> 
+    </h3>
     <p>Bi-weekly checkins with your trainer will keep you focused</p>
   </div>
 </section>
 
 <!-- "meet the trainers" section -->
-<section>
-  <h2>Meet The Trainers</h2>
+<section id= "your-trainers" class="trainers">
+  <h2 class="section-title primary-border">Meet The Trainers</h2>
+    <article class="trainer">
+      <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes ready to pump iron"/>
+      <div class="trainer-bio text-left">
+        <h3>Arron Stephens</h3>
+        <h4>Speed / Strength</h4>
+        <p>
+          Lorem ipsum,dolor sit amet consectetur adipising elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+      </div>
+    </article>
+
+    <article class="trainer">
+      <div class="trainer-bio text-left"></div>
+      <h3>Joanna Gill</h3>
+      <h4>Endurance</h4>
+      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+      </p>
+      <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+    </div></article>
+
+    <artticle class="trainer">
+      <img src="./assets/images/trainer-3.jpg"
+      alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
+      <div class="trainer-bio text-left">
+        <h3>Harry "the Headband" Smith</h3>
+        <h4>Strength</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+          sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+      </div>
+    </artticle>
 </section>
 
 <!-- "reach out" section -->
